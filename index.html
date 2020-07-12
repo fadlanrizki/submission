@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web portfolio</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron" id="home">
+            <h1> Web Portfolio </h1>
+            <p>Selamat Datang di Web Portfolio saya</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="img-slider-container">
+                <i class="fas fa-arrow-left" id="prevBtn"></i>
+                <i class="fas fa-arrow-right" id="nextBtn"></i>
+                <div class="img-slider">
+                    <img class="slide" src="assets/image/3.png" alt="data-table" id="lastClone">
+                    <img src="assets/image/0.png" alt="welcome">
+                    <img src="assets/image/2.png" alt="login">
+                    <img src="assets/image/1.png" alt="dashboard">
+
+                    <img src="assets/image/0.png" alt="welcome" id="firstClone">
+                </div>
+            </div>
+            <h1 style="text-align: center;">Project</h1>
+            <hr>
+            <article id="project" class="card">
+
+                <h1 id="projectLogin">Halaman Login</h1>
+                <img src="assets/image/img1.png" alt="login" class="featured-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt minima autem modi mollitia
+                    enim. Dolorum nostrum aperiam repellendus quam eum nobis voluptas deleniti autem quibusdam? Eos
+                    corporis est esse.</p>
+            </article>
+            <article class="card">
+                <h1>Halaman Dashboard</h1>
+                <img src="assets/image/img2.png" alt="login" class="featured-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt minima autem modi mollitia
+                    enim. Dolorum nostrum aperiam repellendus quam eum nobis voluptas deleniti autem quibusdam? Eos
+                    corporis est esse.</p>
+            </article>
+            <article class="card">
+                <h1>Data Table</h1>
+                <img src="assets/image/img3.png" alt="login" class="featured-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt minima autem modi mollitia
+                    enim. Dolorum nostrum aperiam repellendus quam eum nobis voluptas deleniti autem quibusdam? Eos
+                    corporis est esse.</p>
+            </article>
+        </div>
+        <aside>
+            <h1>About</h1>
+            <hr>
+            <div class="card" id="about">
+                <article class="profile">
+                    <header>
+                        <h2>Fadlan Rizki</h2>
+                        <img src="assets/image/img4.jpeg" alt="profil" class="image-profil">
+
+                        <section class="table">
+                            <table cellspacing="0" cellpadding="10" border="0">
+                                <thead>
+                                    <tr>
+                                        <th>Umur</th>
+                                        <td>18 Tahun</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Jenis Kelamin</th>
+                                        <td>Laki-Laki</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Kota</th>
+                                        <td>Tangerang Selatan</td>
+                                    </tr>
+                                </thead>
+                            </table>
+
+                        </section>
+                    </header>
+                </article>
+
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p> copyright &copy;2020 Fadlan rizki</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
